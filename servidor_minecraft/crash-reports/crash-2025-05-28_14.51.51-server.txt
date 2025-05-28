@@ -1,0 +1,235 @@
+---- Minecraft Crash Report ----
+// Ouch. That hurt :(
+
+Time: 2025-05-28 14:51:51
+Description: Exception in server tick loop
+
+java.lang.IllegalStateException: Failed to initialize server
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:716)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 6.8.0-1027-azure
+	Java Version: 21.0.7, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 1921707168 bytes (1832 MiB) / 2147483648 bytes (2048 MiB) up to 12884901888 bytes (12288 MiB)
+	CPUs: 4
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7763 64-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 1 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 7995.00
+	Virtual memory used (MiB): 6094.00
+	Swap memory total (MiB): 0.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 94390.13, total: 120377.56
+	Space in storage for workdir (MiB): available: 18387.63, total: 32077.81
+	JVM Flags: 2 total; -Xms2G -Xmx12G
+	Fabric Mods: 
+		architectury: Architectury 13.0.8
+		badpackets: Bad Packets 0.8.2
+		betterstats: Better Statistics Screen 3.13.9+fabric-1.21
+		blastingsand: Smelting Sand in a Blast Furnace 12.1
+		blastingstone: Smelt All Stone Blocks in Blast Furnaces 2
+		c2me: Concurrent Chunk Management Engine 0.3.0+alpha.0.320+1.21.1
+			c2me-base: Concurrent Chunk Management Engine (Base) 0.3.0+alpha.0.320+1.21.1
+			c2me-fixes-chunkio-threading-issues: Concurrent Chunk Management Engine (Fixes/Chunk IO/Threading Issues) 0.3.0+alpha.0.320+1.21.1
+			c2me-fixes-general-threading-issues: Concurrent Chunk Management Engine (Fixes/General/Threading Issues) 0.3.0+alpha.0.320+1.21.1
+			c2me-fixes-worldgen-threading-issues: Concurrent Chunk Management Engine (Fixes/WorldGen/Threading Issues) 0.3.0+alpha.0.320+1.21.1
+			c2me-fixes-worldgen-vanilla-bugs: Concurrent Chunk Management Engine (Fixes/WorldGen/Vanilla Bugs) 0.3.0+alpha.0.320+1.21.1
+			c2me-notickvd: Concurrent Chunk Management Engine (No Tick View Distance) 0.3.0+alpha.0.320+1.21.1
+			c2me-opts-allocs: Concurrent Chunk Management Engine (Optimizations/Memory Allocations) 0.3.0+alpha.0.320+1.21.1
+			c2me-opts-chunk-access: Concurrent Chunk Management Engine (Optimizations/Chunk Access) 0.3.0+alpha.0.320+1.21.1
+			c2me-opts-chunkio: Concurrent Chunk Management Engine (Optimizations/Chunk IO) 0.3.0+alpha.0.320+1.21.1
+			c2me-opts-dfc: Concurrent Chunk Management Engine (Optimizations/Density Function Compiler) 0.3.0+alpha.0.320+1.21.1
+			c2me-opts-math: Concurrent Chunk Management Engine (Optimizations/Math) 0.3.0+alpha.0.320+1.21.1
+			c2me-opts-scheduling: Concurrent Chunk Management Engine (Optimizations/Scheduling) 0.3.0+alpha.0.320+1.21.1
+			c2me-opts-worldgen-general: Concurrent Chunk Management Engine (Optimizations/General WorldGen) 0.3.0+alpha.0.320+1.21.1
+			c2me-opts-worldgen-vanilla: Concurrent Chunk Management Engine (Optimizations/Vanilla WorldGen) 0.3.0+alpha.0.320+1.21.1
+			c2me-rewrites-chunk-serializer: Concurrent Chunk Management Engine (Rewrites/Chunk Serializer) 0.3.0+alpha.0.320+1.21.1
+			c2me-rewrites-chunk-system: Concurrent Chunk Management Engine (Rewrites/Chunk System) 0.3.0+alpha.0.320+1.21.1
+			c2me-rewrites-chunkio: Concurrent Chunk Management Engine (Rewrites/Chunk IO) 0.3.0+alpha.0.320+1.21.1
+			c2me-server-utils: Concurrent Chunk Management Engine (Server Utils) 0.3.0+alpha.0.320+1.21.1
+			c2me-threading-lighting: Concurrent Chunk Management Engine (Threading/Lighting) 0.3.0+alpha.0.320+1.21.1
+			io_reactivex_rxjava3_rxjava: rxjava 3.1.8
+			mixinsquared: MixinSquared 0.2.0-beta.6
+			net_objecthunter_exp4j: exp4j 0.4.8
+			org_jctools_jctools-core: jctools-core 4.0.5
+			org_reactivestreams_reactive-streams: reactive-streams 1.0.4
+		cardinal-components: Cardinal Components API 6.1.2
+			cardinal-components-base: Cardinal Components API (base) 6.1.2
+			cardinal-components-block: Cardinal Components API (blocks) 6.1.2
+			cardinal-components-chunk: Cardinal Components API (chunks) 6.1.2
+			cardinal-components-entity: Cardinal Components API (entities) 6.1.2
+			cardinal-components-item: Cardinal Components API (items) 6.1.2
+			cardinal-components-level: Cardinal Components API (world saves) 6.1.2
+			cardinal-components-scoreboard: Cardinal Components API (scoreboard) 6.1.2
+			cardinal-components-world: Cardinal Components API (worlds) 6.1.2
+		cicada: CICADA 0.13.0+1.21-1.21.1
+		cloth-config: Cloth Config v15 15.0.140
+			cloth-basic-math: cloth-basic-math 0.6.1
+		collective: Collective 8.3
+		customizableelytra: Customizable Elytra 2.2.8+1.21
+		deimos: Deimos 2.1
+		easyshulkerboxes: Easy Shulker Boxes 21.1.2
+			iteminteractions: Item Interactions 21.1.3
+		entityculling: EntityCulling 1.7.4
+		fabric-api: Fabric API 0.116.0+1.21.1
+			fabric-api-base: Fabric API Base 0.4.42+6573ed8c19
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.71+b559734419
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.31+d527f9fd19
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.22+0af3f5a719
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.11+ebb2264e19
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.49+f71b366f19
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.28+6ced4dd919
+			fabric-commands-v0: Fabric Commands (v0) 0.2.66+df3654b319
+			fabric-content-registries-v0: Fabric Content Registries (v0) 8.0.19+b559734419
+			fabric-convention-tags-v1: Fabric Convention Tags 2.1.5+7f945d5b19
+			fabric-convention-tags-v2: Fabric Convention Tags (v2) 2.11.1+a406e79519
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.29+0af3f5a719
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.4.3+a15b7ead19
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 20.2.29+16c4ae2519
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 4.0.0+6fc22b9919
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.7.0+2122d82819
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.7.13+ba9dae0619
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.53+6ced4dd919
+			fabric-item-api-v1: Fabric Item API (v1) 11.1.1+d5debaed19
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.1.7+def88e3a19
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.6.0+0865547519
+			fabric-loot-api-v2: Fabric Loot API (v2) 3.0.15+3f89f5a519
+			fabric-loot-api-v3: Fabric Loot API (v3) 1.0.3+3f89f5a519
+			fabric-message-api-v1: Fabric Message API (v1) 6.0.13+6573ed8c19
+			fabric-networking-api-v1: Fabric Networking API (v1) 4.3.0+c7469b2119
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 15.2.1+40875a9319
+			fabric-particles-v1: Fabric Particles (v1) 4.0.2+6573ed8c19
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 5.0.14+248df81c19
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 5.2.0+34f5d91419
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.49+73761d2e19
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.1.6+1daea21519
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 4.3.0+8dc279b119
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 1.3.1+5b5275af19
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.88+b559734419
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 5.4.3+c24bd99419
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 6.2.0+45b9699719
+		fabric-language-kotlin: Fabric Language Kotlin 1.13.2+kotlin.2.1.20
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 2.1.20
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 2.1.20
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 2.1.20
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 2.1.20
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.27.0
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.10.1
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.10.1
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.6.2
+			org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm: kotlinx-io-bytestring-jvm 0.7.0
+			org_jetbrains_kotlinx_kotlinx-io-core-jvm: kotlinx-io-core-jvm 0.7.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.8.0
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.8.0
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.8.0
+		fabricloader: Fabric Loader 0.16.14
+			mixinextras: MixinExtras 0.4.1
+		ferritecore: FerriteCore 7.0.2-hotfix
+		forgeconfigapiport: Forge Config API Port 21.1.3
+			com_electronwill_night-config_core: core 3.8.0
+			com_electronwill_night-config_toml: toml 3.8.0
+		glowing-torchflower: Glowing Torchflower 1.3.0
+			com_typesafe_config: config 1.4.3
+			io_leangen_geantyref_geantyref: geantyref 1.3.13
+			org_apache_commons_commons-text: commons-text 1.10.0
+			org_spongepowered_configurate-core: configurate-core 4.1.2
+			org_spongepowered_configurate-hocon: configurate-hocon 4.1.2
+		horsebuff: HorseBuff 2.1.8
+		iceberg: Iceberg 1.3.2
+		jade: Jade 15.10.1+fabric
+		jamlib: JamLib 1.3.5+1.21.1
+			blue_endless_jankson: jankson 1.2.3
+		java: OpenJDK 64-Bit Server VM 21
+		jei: Just Enough Items 19.21.0.247
+		lithium: Lithium 0.15.0+mc1.21.1
+		lithostitched: Lithostitched 1.4.2
+		macebut3d: Mace but 3D 1.0.1
+		minecraft: Minecraft 1.21.1
+		modernfix: ModernFix 5.21.0+mc1.21.1
+		monolib: MonoLib 2.0.0
+		mr_armor_standarms: Armor Stand Arms 1-v.2.5.0
+		mr_dungeons_andtaverns: Dungeons and Taverns 1-v4.4.4
+		mr_dungeons_andtavernsancientcityoverhaul: Dungeons and Taverns Ancient City Overhaul 1-v2
+		mr_dungeons_andtavernsdeserttemplereplacement: Dungeons and Taverns Desert Temple Replacement 1-v1.2
+		mr_dungeons_andtavernsendcastlestandalone: Dungeons and Taverns End Castle Standalone 1-v1.1
+		mr_dungeons_andtavernsjungletemplereplacement: Dungeons and Taverns Jungle Temple Replacement 1-v1.2
+		mr_dungeons_andtavernsnetherfortressoverhaul: Dungeons and Taverns Nether Fortress Overhaul 1-v2.4
+		mr_dungeons_andtavernsoceanmonumentreplacement: Dungeons and Taverns Ocean Monument Replacement 1-v1.2
+		mr_dungeons_andtavernspillageroutpostoverhaul: Dungeons and Taverns Pillager Outpost Overhaul 1-v3.2.1
+		mr_dungeons_andtavernsstrongholdoverhaul: Dungeons and Taverns Stronghold Overhaul 1-v2.1.f
+		mr_dungeons_andtavernsswamphutoverhaul: Dungeons and Taverns Swamp Hut Overhaul 1-v2.2
+		mr_dungeons_andtavernswoodlandmansionreplacement: Dungeons and Taverns Woodland Mansion Replacement 1-v1.2
+		mr_smelt_dioritetocalcite: Smelt Diorite to Calcite 1.0.2
+		mru: M.R.U 1.0.17+1.21.1+fabric
+			org_commonmark_commonmark: commonmark 0.21.0
+		no-resource-pack-warnings: No Resource Pack Warnings 1.3.0
+		nochatreports: No Chat Reports 1.21.1-v2.9.1
+		noisium: Noisium 2.3.0+mc1.21-1.21.1
+		notenoughanimations: NotEnoughAnimations 1.9.3
+		octolib: OctoLib 0.5.0.1
+			org_yaml_snakeyaml: snakeyaml 2.2
+		owo: oωo 0.12.15.4+1.21
+			io_wispforest_endec: endec 0.1.5.1
+			io_wispforest_endec_gson: gson 0.1.3.1
+			io_wispforest_endec_jankson: jankson 0.1.3.1
+			io_wispforest_endec_netty: netty 0.1.2
+		pickupnotifier: Pick Up Notifier 21.1.1
+		placeholder-api: Placeholder API 2.4.2+1.21
+		puzzleslib: Puzzles Lib 21.1.36
+		rightclickharvest: Right Click Harvest 4.5.3+1.21.1
+		skinlayers3d: 3d-Skin-Layers 1.7.5
+		skinshuffle: SkinShuffle 2.9.1+1.21
+			com_drewnoakes_metadata-extractor: metadata-extractor 2.19.0
+			com_konghq_unirest-java_standalone: unirest-java 3.11.9
+			commons-validator_commons-validator: commons-validator 1.7
+			org_jsoup_jsoup: jsoup 1.16.1
+		smeltingtouch: SmeltingTouch 1.4.0+1.21
+		tcdcommons: TCD Commons API 3.12.7+fabric-1.21
+		tectonic: Tectonic 3.0.0+beta3
+		textformattingeverywhere: Text Formatting Everywhere 2.0.1
+		threadtweak: ThreadTweak 0.1.5+mc1.21.1
+		toggleableitemframes: Toggleable Item Frames 5.1.0-1.21.1
+		travelersbackpack: Traveler's Backpack 10.1.19
+		treeharvester: Tree Harvester 9.1
+		vmp: Very Many Players 0.2.0+beta.7.172+1.21.1
+			com_ibm_async_asyncutil: asyncutil 0.1.0
+		yet_another_config_lib_v3: YetAnotherConfigLib 3.6.6+1.21.1-fabric
+			com_twelvemonkeys_common_common-image: common-image 3.12.0
+			com_twelvemonkeys_common_common-io: common-io 3.12.0
+			com_twelvemonkeys_common_common-lang: common-lang 3.12.0
+			com_twelvemonkeys_imageio_imageio-core: imageio-core 3.12.0
+			com_twelvemonkeys_imageio_imageio-metadata: imageio-metadata 3.12.0
+			com_twelvemonkeys_imageio_imageio-webp: imageio-webp 3.12.0
+			org_quiltmc_parsers_gson: gson 0.2.1
+			org_quiltmc_parsers_json: json 0.2.1
+	Server Running: true
+	Active Data Packs: vanilla, fabric, collective, customizableelytra (incompatible), easyshulkerboxes (incompatible), fabric-convention-tags-v2, lithostitched, mr_armor_standarms (incompatible), mr_dungeons_andtaverns, mr_dungeons_andtavernsancientcityoverhaul, mr_dungeons_andtavernsdeserttemplereplacement, mr_dungeons_andtavernsendcastlestandalone, mr_dungeons_andtavernsjungletemplereplacement, mr_dungeons_andtavernsnetherfortressoverhaul, mr_dungeons_andtavernsoceanmonumentreplacement, mr_dungeons_andtavernspillageroutpostoverhaul (incompatible), mr_dungeons_andtavernsstrongholdoverhaul, mr_dungeons_andtavernsswamphutoverhaul (incompatible), mr_dungeons_andtavernswoodlandmansionreplacement, mr_smelt_dioritetocalcite (incompatible), rightclickharvest, smeltingtouch, travelersbackpack, tectonic:tectonic
+	Available Data Packs: bundle, collective, customizableelytra (incompatible), easyshulkerboxes (incompatible), fabric, fabric-convention-tags-v2, lithostitched, mr_armor_standarms (incompatible), mr_dungeons_andtaverns, mr_dungeons_andtavernsancientcityoverhaul, mr_dungeons_andtavernsdeserttemplereplacement, mr_dungeons_andtavernsendcastlestandalone, mr_dungeons_andtavernsjungletemplereplacement, mr_dungeons_andtavernsnetherfortressoverhaul, mr_dungeons_andtavernsoceanmonumentreplacement, mr_dungeons_andtavernspillageroutpostoverhaul (incompatible), mr_dungeons_andtavernsstrongholdoverhaul, mr_dungeons_andtavernsswamphutoverhaul (incompatible), mr_dungeons_andtavernswoodlandmansionreplacement, mr_smelt_dioritetocalcite (incompatible), rightclickharvest, smeltingtouch, tectonic:tectonic, trade_rebalance, travelersbackpack, vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: 5539261917679081477
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)

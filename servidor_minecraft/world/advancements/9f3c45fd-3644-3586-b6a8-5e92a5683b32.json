@@ -40,7 +40,8 @@
       "minecraft:jungle": "2025-05-28 21:14:26 +0000",
       "minecraft:savanna": "2025-05-28 21:06:39 +0000",
       "minecraft:wooded_badlands": "2025-05-28 21:24:23 +0000",
-      "minecraft:plains": "2025-05-28 21:21:47 +0000"
+      "minecraft:plains": "2025-05-28 21:21:47 +0000",
+      "minecraft:warm_ocean": "2025-05-28 22:34:04 +0000"
     },
     "done": false
   },
@@ -1217,6 +1218,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2025-05-28 22:36:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-28 22:36:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_sand": "2025-05-28 22:25:11 +0000"
@@ -1244,6 +1257,12 @@
   "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_sand": "2025-05-28 22:25:11 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/standard_smithing": {
+    "criteria": {
+      "has_standard": "2025-05-28 22:37:38 +0000"
     },
     "done": true
   },
@@ -1289,6 +1308,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-28 22:36:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_sand": "2025-05-28 22:25:11 +0000"
@@ -1298,6 +1323,12 @@
   "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
       "has_glass": "2025-05-28 22:28:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2025-05-28 22:36:11 +0000"
     },
     "done": true
   },
@@ -1313,15 +1344,33 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/standard_no_tanks": {
+    "criteria": {
+      "has_chest": "2025-05-28 22:36:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2025-05-28 22:28:15 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2025-05-28 22:36:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_sand": "2025-05-28 22:25:11 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/standard": {
+    "criteria": {
+      "has_chest": "2025-05-28 22:36:16 +0000"
     },
     "done": true
   },
@@ -1334,6 +1383,12 @@
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_sand": "2025-05-28 22:25:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2025-05-28 22:36:11 +0000"
     },
     "done": true
   },
@@ -1355,9 +1410,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-05-28 22:36:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2025-05-28 22:28:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-28 22:36:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2025-05-28 22:36:11 +0000"
     },
     "done": true
   },

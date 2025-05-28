@@ -351,3 +351,25 @@
 [22:23:38] [Server thread/INFO]: brunomartii joined the game
 [22:42:28] [Server thread/INFO]: brunomartii lost connection: Disconnected
 [22:42:28] [Server thread/INFO]: brunomartii left the game
+[23:07:01] [Server thread/INFO]: Stopping server
+[23:07:01] [Server thread/INFO]: Saving players
+[23:07:01] [Server thread/INFO]: Saving worlds
+[23:07:01] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[23:07:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:07:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:07:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:07:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:07:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:07:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:07:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:07:01] [C2ME Storage #3/INFO]: Storage thread Thread[#63,C2ME Storage #3,5,main] stopped
+[23:07:01] [C2ME Storage #2/INFO]: Storage thread Thread[#62,C2ME Storage #2,5,main] stopped
+[23:07:01] [C2ME Storage #1/INFO]: Storage thread Thread[#61,C2ME Storage #1,5,main] stopped
+[23:07:01] [C2ME Storage #6/INFO]: Storage thread Thread[#68,C2ME Storage #6,5,main] stopped
+[23:07:01] [C2ME Storage #5/INFO]: Storage thread Thread[#67,C2ME Storage #5,5,main] stopped
+[23:07:01] [C2ME Storage #4/INFO]: Storage thread Thread[#66,C2ME Storage #4,5,main] stopped
+[23:07:01] [C2ME Storage #9/INFO]: Storage thread Thread[#72,C2ME Storage #9,5,main] stopped
+[23:07:01] [C2ME Storage #8/INFO]: Storage thread Thread[#71,C2ME Storage #8,5,main] stopped
+[23:07:01] [C2ME Storage #7/INFO]: Storage thread Thread[#70,C2ME Storage #7,5,main] stopped
+[23:07:01] [Server thread/INFO]: Dispatching unloading event for config iteminteractions-server.toml
+[23:07:01] [Server thread/INFO]: Dispatching unloading event for config pickupnotifier/pickupnotifier-server.toml

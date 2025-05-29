@@ -1,15 +1,15 @@
-[21:36:53] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
-[21:36:56] [ForkJoinPool-1-worker-4/WARN]: The mod "betterstats" contains invalid entries in its mod json:
+[22:03:10] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
+[22:03:13] [ForkJoinPool-1-worker-4/WARN]: The mod "betterstats" contains invalid entries in its mod json:
 - Unsupported root entry "" at line 26 column 4
 - Unsupported root entry "" at line 26 column 124
 - Unsupported root entry "" at line 28 column 4
 - Unsupported root entry "" at line 28 column 24
-[21:36:58] [ForkJoinPool-1-worker-1/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
+[22:03:13] [ForkJoinPool-1-worker-3/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
 - Unsupported root entry "" at line 27 column 4
 - Unsupported root entry "" at line 27 column 198
 - Unsupported root entry "" at line 29 column 4
 - Unsupported root entry "" at line 29 column 24
-[21:36:59] [main/INFO]: Loading 179 mods:
+[22:03:15] [main/INFO]: Loading 179 mods:
 	- architectury 13.0.8
 	- badpackets 0.8.2
 	- betterstats 3.13.9+fabric-1.21
@@ -205,171 +205,131 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[21:37:00] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Skoda-Fabia/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[21:37:00] [main/INFO]: Compatibility level set to JAVA_16
-[21:37:00] [main/INFO]: Compatibility level set to JAVA_21
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[21:37:01] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[21:37:01] [main/INFO]: Disabling com.ishland.c2me.opts.dfc.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[21:37:01] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@13.0.8 (*) (defined in c2me)
-[21:37:01] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[21:37:01] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[21:37:01] [main/WARN]: Reference map 'easyshulkerboxes.common.refmap.json' for easyshulkerboxes.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:37:01] [main/WARN]: Reference map 'easyshulkerboxes.fabric.refmap.json' for easyshulkerboxes.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:37:01] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:37:01] [main/WARN]: Reference map 'iteminteractions.fabric.refmap.json' for iteminteractions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:37:01] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[21:37:01] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[21:37:01] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[21:37:01] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[21:37:01] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[21:37:01] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[21:37:01] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[21:37:01] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 0 override(s) found
-[21:37:01] [main/INFO]: Loaded configuration file for ModernFix 5.21.0+mc1.21.1: 58 options available, 5 override(s) found
-[21:37:01] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[21:37:01] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[21:37:01] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[21:37:01] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[21:37:01] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
-[21:37:01] [main/INFO]: Applying Nashorn fix
-[21:37:01] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:37:01] [main/WARN]: Reference map 'pickupnotifier.fabric.refmap.json' for pickupnotifier.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:37:01] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
-[21:37:02] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[21:37:03] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[21:37:03] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[21:37:03] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[21:37:03] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[21:37:03] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
-[21:37:03] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[21:37:04] [main/INFO]: ThreadTweak config initialized
-[21:37:08] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[21:37:12] [main/INFO]: Vanilla bootstrap took 7755 milliseconds
-[21:37:12] [main/INFO]: Loading Collective version 8.3.
-[21:37:13] [main/INFO]: Constructing common components for easyshulkerboxes:main
-[21:37:13] [main/INFO]: Horse Buff Initialized
-[21:37:13] [main/INFO]: Constructing common components for iteminteractions:main
-[21:37:13] [main/INFO]: Initializing JamLib on Fabric
-[21:37:13] [Cicada thread 0/INFO]: [cicada] I used the JSON to destroy the JSON.
-[21:37:13] [main/INFO]: Hello Fabric world!
-[21:37:13] [main/INFO]: [STDOUT]: No matching files were found.
-[21:37:13] [main/INFO]: Loading Noisium.
-[21:37:13] [main/INFO]: chyz: now i just need to painstakingly move jerry (the little tiny lil fella tiny guy man button) to correct spot when recipe book is opened
-[21:37:13] [main/INFO]: Constructing common components for pickupnotifier:main
-[21:37:13] [main/INFO]: Constructing common components for puzzleslib:main
-[21:37:14] [main/INFO]: Updated config file at /workspaces/Skoda-Fabia/servidor_minecraft/config/rightclickharvest.json5
-[21:37:14] [main/INFO]: Initializing Right Click Harvest on FABRIC
-[21:37:14] [main/ERROR]: No data fixer registered for 
-[21:37:14] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[21:37:14] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[21:37:14] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[21:37:14] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[21:37:14] [main/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsServer'.
-[21:37:14] [main/INFO]: Initializing 'TCD Commons API' 3.12.7+fabric-1.21 as 'TCDCommonsServer'.
-[21:37:14] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:37:17] [main/INFO]: Loaded 1446 recipes
-[21:37:17] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[21:37:17] [main/INFO]: Loaded 1573 advancements
-[21:37:17] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
-[21:37:17] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.850 ms
-[21:37:17] [Server thread/INFO]: Dispatching loading event for config iteminteractions-server.toml
-[21:37:17] [Server thread/INFO]: Dispatching loading event for config pickupnotifier/pickupnotifier-server.toml
-[21:37:17] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[21:37:17] [Server thread/INFO]: Loading properties
-[21:37:17] [Server thread/INFO]: Default game type: SURVIVAL
-[21:37:17] [Server thread/INFO]: Generating keypair
-[21:37:17] [Server thread/INFO]: Starting Minecraft server on *:25567
-[21:37:17] [Server thread/INFO]: Using epoll channel type
-[21:37:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:37:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:37:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:37:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:37:18] [Server thread/INFO]: Preparing level "world"
-[21:37:18] [Server thread/INFO]: Enforcing safe world random access
-[21:37:19] [Server thread/INFO]: Changing watch distance to 10
-[21:37:19] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[21:37:29] [Server thread/INFO]: Changing watch distance to 10
-[21:37:33] [Server thread/INFO]: Changing watch distance to 10
-[21:37:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:37:34] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[21:37:34] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[21:37:35] [c2me-worker-0/INFO]: Preparing spawn area: 2%
-[21:37:35] [c2me-worker-0/INFO]: Preparing spawn area: 2%
-[21:37:35] [c2me-worker-0/INFO]: Preparing spawn area: 61%
-[21:37:35] [Server thread/INFO]: Time elapsed: 2181 ms
-[21:37:35] [Server thread/INFO]: Done (17.537s)! For help, type "help"
-[21:37:35] [Server thread/WARN]: Dedicated server took 51.518 seconds to load
-[21:37:35] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[21:37:35] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[21:37:35] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[21:37:35] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
-[21:37:35] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[21:37:36] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[21:37:57] [Server thread/INFO]: Angul0[/127.108.159.97:60165] logged in with entity id 24 at (1203.5235213131332, 72.0, 367.82995867832557)
-[21:37:57] [Server thread/INFO]: Loading config from file...
-[21:37:57] [Server thread/INFO]: Angul0 joined the game
-[21:37:59] [Server thread/WARN]: UUID of added entity already exists: class_1646['Toolsmith'/80, l='ServerLevel[world]', x=1194.43, y=71.00, z=311.89]
-[21:37:59] [Server thread/WARN]: UUID of added entity already exists: class_1498['Horse'/83, l='ServerLevel[world]', x=1205.42, y=71.00, z=313.69]
-[21:38:01] [Server thread/INFO]: brunomartii[/127.18.239.12:44557] logged in with entity id 207 at (1222.512499988079, 71.0, 328.5946539599223)
-[21:38:01] [Server thread/INFO]: Loading config from file...
-[21:38:01] [Server thread/INFO]: brunomartii joined the game
-[21:44:06] [Server thread/INFO]: brunomartii has made the advancement [Stone Age]
-[21:44:12] [Server thread/INFO]: brunomartii has made the advancement [Getting an Upgrade]
-[21:47:24] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[21:47:24] [Server thread/INFO]: OP Angul0<--[HERE]
-[21:47:59] [Server thread/INFO]: Made Angul0 a server operator
-[21:51:13] [Server thread/WARN]: Angul0 moved too quickly! 4.798596880281593,-1.2491870787446828,-8.891223070229216
-[21:51:24] [Server thread/WARN]: brunomartii moved too quickly! 0.5730969495759837,-1.0752008901189356,-10.223333524484929
-[21:58:32] [Server thread/INFO]: brunomartii has made the advancement [Acquire Hardware]
-[22:07:28] [Server thread/INFO]: Angul0 has made the advancement [Isn't It Iron Pick]
-[22:11:58] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[22:13:01] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[22:20:32] [Server thread/INFO]: Angul0 lost connection: Disconnected
-[22:20:32] [Server thread/INFO]: Angul0 left the game
-[22:21:28] [Server thread/INFO]: brunomartii lost connection: Disconnected
-[22:21:28] [Server thread/INFO]: brunomartii left the game
-[22:23:38] [Server thread/INFO]: brunomartii[/127.18.239.12:55405] logged in with entity id 15729 at (929.6240926443674, 62.110764312744145, -827.515490623012)
-[22:23:38] [Server thread/INFO]: Loading config from file...
-[22:23:38] [Server thread/INFO]: brunomartii joined the game
-[22:42:28] [Server thread/INFO]: brunomartii lost connection: Disconnected
-[22:42:28] [Server thread/INFO]: brunomartii left the game
-[23:07:01] [Server thread/INFO]: Stopping server
-[23:07:01] [Server thread/INFO]: Saving players
-[23:07:01] [Server thread/INFO]: Saving worlds
-[23:07:01] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
-[23:07:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:07:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:07:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:07:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:07:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:07:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:07:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:07:01] [C2ME Storage #3/INFO]: Storage thread Thread[#63,C2ME Storage #3,5,main] stopped
-[23:07:01] [C2ME Storage #2/INFO]: Storage thread Thread[#62,C2ME Storage #2,5,main] stopped
-[23:07:01] [C2ME Storage #1/INFO]: Storage thread Thread[#61,C2ME Storage #1,5,main] stopped
-[23:07:01] [C2ME Storage #6/INFO]: Storage thread Thread[#68,C2ME Storage #6,5,main] stopped
-[23:07:01] [C2ME Storage #5/INFO]: Storage thread Thread[#67,C2ME Storage #5,5,main] stopped
-[23:07:01] [C2ME Storage #4/INFO]: Storage thread Thread[#66,C2ME Storage #4,5,main] stopped
-[23:07:01] [C2ME Storage #9/INFO]: Storage thread Thread[#72,C2ME Storage #9,5,main] stopped
-[23:07:01] [C2ME Storage #8/INFO]: Storage thread Thread[#71,C2ME Storage #8,5,main] stopped
-[23:07:01] [C2ME Storage #7/INFO]: Storage thread Thread[#70,C2ME Storage #7,5,main] stopped
-[23:07:01] [Server thread/INFO]: Dispatching unloading event for config iteminteractions-server.toml
-[23:07:01] [Server thread/INFO]: Dispatching unloading event for config pickupnotifier/pickupnotifier-server.toml
+[22:03:17] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Skoda-Fabia/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[22:03:17] [main/INFO]: Compatibility level set to JAVA_16
+[22:03:17] [main/INFO]: Compatibility level set to JAVA_21
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[22:03:17] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[22:03:17] [main/INFO]: Disabling com.ishland.c2me.opts.dfc.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[22:03:17] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@13.0.8 (*) (defined in c2me)
+[22:03:17] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[22:03:17] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[22:03:17] [main/WARN]: Reference map 'easyshulkerboxes.common.refmap.json' for easyshulkerboxes.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:03:17] [main/WARN]: Reference map 'easyshulkerboxes.fabric.refmap.json' for easyshulkerboxes.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:03:18] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:03:18] [main/WARN]: Reference map 'iteminteractions.fabric.refmap.json' for iteminteractions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:03:18] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[22:03:18] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[22:03:18] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[22:03:18] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[22:03:18] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[22:03:18] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[22:03:18] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[22:03:18] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 0 override(s) found
+[22:03:18] [main/INFO]: Loaded configuration file for ModernFix 5.21.0+mc1.21.1: 58 options available, 5 override(s) found
+[22:03:18] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[22:03:18] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[22:03:18] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[22:03:18] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[22:03:18] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
+[22:03:18] [main/INFO]: Applying Nashorn fix
+[22:03:18] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:03:18] [main/WARN]: Reference map 'pickupnotifier.fabric.refmap.json' for pickupnotifier.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:03:18] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[22:03:19] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[22:03:19] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[22:03:19] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[22:03:19] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[22:03:19] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[22:03:19] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[22:03:20] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[22:03:20] [main/INFO]: ThreadTweak config initialized
+[22:03:25] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[22:03:29] [main/INFO]: Vanilla bootstrap took 8289 milliseconds
+[22:03:30] [main/INFO]: Loading Collective version 8.3.
+[22:03:30] [main/INFO]: Constructing common components for easyshulkerboxes:main
+[22:03:30] [main/INFO]: Horse Buff Initialized
+[22:03:30] [main/INFO]: Constructing common components for iteminteractions:main
+[22:03:31] [main/INFO]: Initializing JamLib on Fabric
+[22:03:31] [Cicada thread 0/INFO]: [cicada] I used the JSON to destroy the JSON.
+[22:03:31] [main/INFO]: Hello Fabric world!
+[22:03:31] [main/INFO]: [STDOUT]: No matching files were found.
+[22:03:31] [main/INFO]: Loading Noisium.
+[22:03:31] [main/INFO]: that's a CanPickUpLoot baby zombie, the most annoying thing ever. he runs around like crazy and picks up all your shit
+[22:03:31] [main/INFO]: Constructing common components for pickupnotifier:main
+[22:03:31] [main/INFO]: Constructing common components for puzzleslib:main
+[22:03:31] [main/INFO]: Updated config file at /workspaces/Skoda-Fabia/servidor_minecraft/config/rightclickharvest.json5
+[22:03:31] [main/INFO]: Initializing Right Click Harvest on FABRIC
+[22:03:31] [main/ERROR]: No data fixer registered for 
+[22:03:33] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[22:03:33] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[22:03:33] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[22:03:33] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[22:03:33] [main/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsServer'.
+[22:03:33] [main/INFO]: Initializing 'TCD Commons API' 3.12.7+fabric-1.21 as 'TCDCommonsServer'.
+[22:03:33] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:03:36] [main/INFO]: Loaded 1446 recipes
+[22:03:36] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[22:03:36] [main/INFO]: Loaded 1573 advancements
+[22:03:36] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[22:03:36] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.496 ms
+[22:03:36] [Server thread/INFO]: Dispatching loading event for config iteminteractions-server.toml
+[22:03:36] [Server thread/INFO]: Dispatching loading event for config pickupnotifier/pickupnotifier-server.toml
+[22:03:36] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[22:03:36] [Server thread/INFO]: Loading properties
+[22:03:36] [Server thread/INFO]: Default game type: SURVIVAL
+[22:03:36] [Server thread/INFO]: Generating keypair
+[22:03:36] [Server thread/INFO]: Starting Minecraft server on *:25567
+[22:03:36] [Server thread/INFO]: Using epoll channel type
+[22:03:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:03:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:03:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:03:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:03:36] [Server thread/INFO]: Preparing level "world"
+[22:03:37] [Server thread/INFO]: Enforcing safe world random access
+[22:03:37] [Server thread/INFO]: Changing watch distance to 10
+[22:03:37] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[22:03:48] [Server thread/INFO]: Changing watch distance to 10
+[22:03:48] [Server thread/INFO]: Changing watch distance to 10
+[22:03:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:03:49] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[22:03:49] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[22:03:49] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[22:03:50] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[22:03:50] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[22:03:50] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[22:03:52] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[22:03:52] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[22:03:52] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[22:03:52] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[22:03:53] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[22:03:53] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[22:03:54] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[22:03:55] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[22:03:55] [minecraft_overworld - Light/INFO]: Preparing spawn area: 0%
+[22:03:55] [Server thread/INFO]: Time elapsed: 7388 ms
+[22:03:55] [Server thread/INFO]: Done (18.649s)! For help, type "help"
+[22:03:55] [Server thread/WARN]: Dedicated server took 54.116 seconds to load
+[22:03:55] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[22:03:55] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[22:03:55] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[22:03:55] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[22:03:55] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[22:03:55] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!

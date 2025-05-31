@@ -163,6 +163,7 @@
       "minecraft:pillager": "2025-05-28 21:26:18 +0000",
       "minecraft:skeleton": "2025-05-28 21:22:13 +0000",
       "minecraft:enderman": "2025-05-29 22:51:46 +0000",
+      "minecraft:silverfish": "2025-05-31 21:12:28 +0000",
       "minecraft:spider": "2025-05-28 21:07:52 +0000",
       "minecraft:zombie": "2025-05-28 21:16:17 +0000",
       "minecraft:creeper": "2025-05-29 23:13:55 +0000",
@@ -341,7 +342,8 @@
       "beef": "2025-05-28 21:10:15 +0000",
       "melon_slice": "2025-05-28 21:18:00 +0000",
       "porkchop": "2025-05-28 21:14:07 +0000",
-      "beetroot": "2025-05-28 21:27:01 +0000"
+      "beetroot": "2025-05-28 21:27:01 +0000",
+      "carrot": "2025-05-31 21:13:30 +0000"
     },
     "done": false
   },
@@ -2355,9 +2357,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-05-31 21:13:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
     "criteria": {
       "has_tag": "2025-05-31 21:05:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-05-31 21:12:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-05-31 21:12:22 +0000"
     },
     "done": true
   },
@@ -2373,6 +2393,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-05-31 21:12:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab": {
     "criteria": {
       "has_stone_bricks": "2025-05-31 21:05:06 +0000"
@@ -2382,6 +2408,36 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2025-05-31 21:05:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-05-31 21:06:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2025-05-31 21:14:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-05-31 21:12:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-05-31 21:12:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-05-31 21:12:22 +0000"
     },
     "done": true
   },

@@ -340,3 +340,8 @@
 [21:02:46] [Server thread/INFO]: Loading config from file...
 [21:02:46] [Server thread/INFO]: brunomartii joined the game
 [21:02:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[21:26:23] [Server thread/INFO]: brunomartii has made the advancement [Safe Haven]
+[21:26:31] [Server thread/INFO]: Angul0 has made the advancement [Safe Haven]
+[21:27:02] [Server thread/INFO]: brunomartii has made the advancement [What a Deal!]
+[21:29:52] [c2me-worker-0/WARN]: Couldn't find template pool reference: minecraft:minecraft_empty
+[21:29:52] [c2me-worker-0/WARN]: Couldn't find template pool reference: minecraft:minecraft_empty

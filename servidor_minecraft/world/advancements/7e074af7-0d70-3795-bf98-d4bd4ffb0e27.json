@@ -25,28 +25,36 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-05-31 21:54:08 +0000",
+      "minecraft:old_growth_pine_taiga": "2025-05-31 22:04:55 +0000",
+      "minecraft:forest": "2025-05-28 21:13:39 +0000",
+      "minecraft:lush_caves": "2025-05-29 22:56:24 +0000",
+      "minecraft:eroded_badlands": "2025-05-28 21:10:12 +0000",
+      "minecraft:desert": "2025-05-28 21:02:40 +0000",
+      "minecraft:jungle": "2025-05-28 21:14:43 +0000",
+      "minecraft:birch_forest": "2025-05-31 21:59:26 +0000",
+      "minecraft:wooded_badlands": "2025-05-28 21:24:24 +0000",
+      "minecraft:bamboo_jungle": "2025-05-29 22:45:28 +0000",
+      "minecraft:windswept_savanna": "2025-05-29 23:39:53 +0000",
+      "minecraft:warm_ocean": "2025-05-29 22:27:11 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-05-29 23:38:34 +0000",
       "minecraft:badlands": "2025-05-28 21:02:35 +0000",
       "minecraft:savanna_plateau": "2025-05-28 21:09:15 +0000",
       "minecraft:beach": "2025-05-28 21:55:58 +0000",
       "minecraft:stony_peaks": "2025-05-28 21:23:48 +0000",
-      "minecraft:forest": "2025-05-28 21:13:39 +0000",
+      "minecraft:dark_forest": "2025-05-31 22:01:52 +0000",
       "minecraft:sparse_jungle": "2025-05-28 21:21:09 +0000",
       "minecraft:river": "2025-05-28 21:25:50 +0000",
       "minecraft:lukewarm_ocean": "2025-05-29 23:39:42 +0000",
       "minecraft:stony_shore": "2025-05-28 21:44:25 +0000",
-      "minecraft:lush_caves": "2025-05-29 22:56:24 +0000",
       "minecraft:dripstone_caves": "2025-05-28 21:23:26 +0000",
+      "minecraft:frozen_peaks": "2025-05-31 21:58:04 +0000",
       "minecraft:old_growth_birch_forest": "2025-05-28 21:42:11 +0000",
-      "minecraft:eroded_badlands": "2025-05-28 21:10:12 +0000",
-      "minecraft:desert": "2025-05-28 21:02:40 +0000",
-      "minecraft:jungle": "2025-05-28 21:14:43 +0000",
+      "minecraft:grove": "2025-05-31 21:58:09 +0000",
+      "minecraft:meadow": "2025-05-31 21:53:50 +0000",
       "minecraft:savanna": "2025-05-28 14:53:55 +0000",
-      "minecraft:wooded_badlands": "2025-05-28 21:24:24 +0000",
-      "minecraft:bamboo_jungle": "2025-05-29 22:45:28 +0000",
-      "minecraft:windswept_savanna": "2025-05-29 23:39:53 +0000",
       "minecraft:plains": "2025-05-28 21:21:46 +0000",
-      "minecraft:warm_ocean": "2025-05-29 22:27:11 +0000",
-      "minecraft:deep_lukewarm_ocean": "2025-05-29 23:38:34 +0000"
+      "minecraft:jagged_peaks": "2025-05-31 21:56:11 +0000"
     },
     "done": false
   },
@@ -202,6 +210,7 @@
       "minecraft:enderman": "2025-05-29 22:54:16 +0000",
       "minecraft:spider": "2025-05-28 21:07:24 +0000",
       "minecraft:zombie": "2025-05-28 21:03:49 +0000",
+      "minecraft:creeper": "2025-05-31 21:54:46 +0000",
       "minecraft:drowned": "2025-05-29 22:47:03 +0000",
       "minecraft:husk": "2025-05-29 22:50:40 +0000"
     },
@@ -2224,6 +2233,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-05-31 22:22:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-31 22:22:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2025-05-31 22:47:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-05-31 21:54:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_coal_block": "2025-05-31 21:14:55 +0000"
@@ -2236,9 +2269,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2025-05-31 22:22:19 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/snow": {
+    "criteria": {
+      "has_snowball": "2025-05-31 21:54:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/mossy_stone_brick_wall": {
     "criteria": {
       "has_mossy_stone_bricks": "2025-05-31 21:11:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-05-31 22:04:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-05-31 22:00:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2025-05-31 21:58:36 +0000"
     },
     "done": true
   },
@@ -2254,15 +2317,57 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-31 22:22:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2025-05-31 21:35:05 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-31 22:22:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-05-31 22:22:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-05-31 22:22:19 +0000"
+    },
+    "done": true
+  },
   "nova_structures:root": {
     "criteria": {
       "nova_structures:adventure/find_tavern": "2025-05-31 21:26:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-05-31 22:02:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2025-05-31 22:22:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-05-31 21:58:36 +0000"
     },
     "done": true
   },
@@ -2290,6 +2395,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-05-31 22:02:02 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/horse_smithing": {
     "criteria": {
       "has_horse": "2025-05-31 21:20:37 +0000"
@@ -2302,9 +2413,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2025-05-31 22:47:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
     "criteria": {
       "has_mossy_stone_bricks": "2025-05-31 21:11:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-05-31 22:22:19 +0000"
     },
     "done": true
   },
@@ -2317,6 +2440,12 @@
   "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
     "criteria": {
       "has_mossy_stone_bricks": "2025-05-31 21:11:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-05-31 21:54:12 +0000"
     },
     "done": true
   },

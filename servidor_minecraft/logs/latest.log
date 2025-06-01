@@ -332,3 +332,7 @@
 [19:00:25] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
 [19:00:25] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
 [19:00:26] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[19:12:41] [Server thread/INFO]: brunomartii[/127.18.239.12:40207] logged in with entity id 22 at (4366.551276440285, 63.0, 1242.686087330393)
+[19:12:41] [Server thread/INFO]: Loading config from file...
+[19:12:41] [Server thread/INFO]: brunomartii joined the game
+[19:18:19] [Server thread/INFO]: Villager class_1646['Weaponsmith'/160, l='ServerLevel[world]', x=4415.30, y=70.00, z=1289.78] died, message: 'Weaponsmith was slain by Zombie'

@@ -336,3 +336,5 @@
 [19:12:41] [Server thread/INFO]: Loading config from file...
 [19:12:41] [Server thread/INFO]: brunomartii joined the game
 [19:18:19] [Server thread/INFO]: Villager class_1646['Weaponsmith'/160, l='ServerLevel[world]', x=4415.30, y=70.00, z=1289.78] died, message: 'Weaponsmith was slain by Zombie'
+[19:35:38] [Server thread/INFO]: brunomartii lost connection: Disconnected
+[19:35:38] [Server thread/INFO]: brunomartii left the game

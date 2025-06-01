@@ -1,15 +1,15 @@
-[21:00:42] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
-[21:00:43] [ForkJoinPool-1-worker-4/WARN]: The mod "betterstats" contains invalid entries in its mod json:
+[18:59:49] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
+[18:59:50] [ForkJoinPool-1-worker-2/WARN]: The mod "betterstats" contains invalid entries in its mod json:
 - Unsupported root entry "" at line 26 column 4
 - Unsupported root entry "" at line 26 column 124
 - Unsupported root entry "" at line 28 column 4
 - Unsupported root entry "" at line 28 column 24
-[21:00:43] [ForkJoinPool-1-worker-4/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
+[18:59:50] [ForkJoinPool-1-worker-1/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
 - Unsupported root entry "" at line 27 column 4
 - Unsupported root entry "" at line 27 column 198
 - Unsupported root entry "" at line 29 column 4
 - Unsupported root entry "" at line 29 column 24
-[21:00:43] [main/INFO]: Loading 179 mods:
+[18:59:50] [main/INFO]: Loading 179 mods:
 	- architectury 13.0.8
 	- badpackets 0.8.2
 	- betterstats 3.13.9+fabric-1.21
@@ -205,425 +205,130 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[21:00:44] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Skoda-Fabia/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[21:00:44] [main/INFO]: Compatibility level set to JAVA_16
-[21:00:44] [main/INFO]: Compatibility level set to JAVA_21
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[21:00:44] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[21:00:44] [main/INFO]: Disabling com.ishland.c2me.opts.dfc.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[21:00:44] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@13.0.8 (*) (defined in c2me)
-[21:00:44] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[21:00:44] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[21:00:44] [main/WARN]: Reference map 'easyshulkerboxes.common.refmap.json' for easyshulkerboxes.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:00:44] [main/WARN]: Reference map 'easyshulkerboxes.fabric.refmap.json' for easyshulkerboxes.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:00:44] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:00:44] [main/WARN]: Reference map 'iteminteractions.fabric.refmap.json' for iteminteractions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:00:45] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[21:00:45] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[21:00:45] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[21:00:45] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[21:00:45] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[21:00:45] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[21:00:45] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[21:00:45] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 0 override(s) found
-[21:00:45] [main/INFO]: Loaded configuration file for ModernFix 5.21.0+mc1.21.1: 58 options available, 5 override(s) found
-[21:00:45] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[21:00:45] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[21:00:45] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[21:00:45] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[21:00:45] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
-[21:00:45] [main/INFO]: Applying Nashorn fix
-[21:00:45] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:00:45] [main/WARN]: Reference map 'pickupnotifier.fabric.refmap.json' for pickupnotifier.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:00:45] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
-[21:00:45] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[21:00:46] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[21:00:46] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[21:00:46] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[21:00:46] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[21:00:46] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
-[21:00:46] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[21:00:47] [main/INFO]: ThreadTweak config initialized
-[21:00:51] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[21:00:55] [main/INFO]: Vanilla bootstrap took 7348 milliseconds
-[21:00:55] [main/INFO]: Loading Collective version 8.3.
-[21:00:55] [main/INFO]: Constructing common components for easyshulkerboxes:main
-[21:00:56] [main/INFO]: Horse Buff Initialized
-[21:00:56] [main/INFO]: Constructing common components for iteminteractions:main
-[21:00:56] [main/INFO]: Initializing JamLib on Fabric
-[21:00:57] [Cicada thread 0/INFO]: [cicada] Hello, anyone there?
-[21:00:57] [main/INFO]: Hello Fabric world!
-[21:00:57] [main/INFO]: [STDOUT]: No matching files were found.
-[21:00:57] [main/INFO]: Loading Noisium.
-[21:00:57] [main/INFO]: chyz: How could you do this to me, Blod. I loved you like a guy I don't know in real life :(
-[21:00:57] [main/INFO]: Constructing common components for pickupnotifier:main
-[21:00:57] [main/INFO]: Constructing common components for puzzleslib:main
-[21:00:57] [main/INFO]: Updated config file at /workspaces/Skoda-Fabia/servidor_minecraft/config/rightclickharvest.json5
-[21:00:57] [main/INFO]: Initializing Right Click Harvest on FABRIC
-[21:00:58] [main/ERROR]: No data fixer registered for 
-[21:00:58] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[21:00:58] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[21:00:58] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[21:00:58] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[21:00:58] [main/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsServer'.
-[21:00:58] [main/INFO]: Initializing 'TCD Commons API' 3.12.7+fabric-1.21 as 'TCDCommonsServer'.
-[21:00:58] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:01:01] [main/INFO]: Loaded 1446 recipes
-[21:01:01] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[21:01:01] [main/INFO]: Loaded 1573 advancements
-[21:01:01] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
-[21:01:01] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.598 ms
-[21:01:01] [Server thread/INFO]: Dispatching loading event for config iteminteractions-server.toml
-[21:01:01] [Server thread/INFO]: Dispatching loading event for config pickupnotifier/pickupnotifier-server.toml
-[21:01:01] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[21:01:01] [Server thread/INFO]: Loading properties
-[21:01:01] [Server thread/INFO]: Default game type: SURVIVAL
-[21:01:01] [Server thread/INFO]: Generating keypair
-[21:01:01] [Server thread/INFO]: Starting Minecraft server on *:25567
-[21:01:02] [Server thread/INFO]: Using epoll channel type
-[21:01:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:01:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:01:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:01:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:01:02] [Server thread/INFO]: Preparing level "world"
-[21:01:02] [Server thread/INFO]: Enforcing safe world random access
-[21:01:03] [Server thread/INFO]: Changing watch distance to 10
-[21:01:03] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[21:01:13] [Server thread/INFO]: Changing watch distance to 10
-[21:01:13] [Server thread/INFO]: Changing watch distance to 10
-[21:01:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:01:15] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[21:01:15] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[21:01:15] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[21:01:15] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[21:01:15] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[21:01:17] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[21:01:17] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[21:01:17] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[21:01:17] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[21:01:18] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[21:01:18] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[21:01:19] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[21:01:19] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[21:01:21] [minecraft_overworld - Light/INFO]: Preparing spawn area: 0%
-[21:01:21] [minecraft_overworld - Light/INFO]: Preparing spawn area: 0%
-[21:01:21] [Server thread/INFO]: Time elapsed: 7382 ms
-[21:01:21] [Server thread/INFO]: Done (19.099s)! For help, type "help"
-[21:01:21] [Server thread/WARN]: Dedicated server took 39.761 seconds to load
-[21:01:21] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[21:01:21] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[21:01:21] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[21:01:21] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
-[21:01:21] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[21:01:21] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[21:02:43] [Server thread/INFO]: Angul0[/127.108.159.97:49339] logged in with entity id 23 at (2657.5, 64.0, -737.5)
-[21:02:43] [Server thread/INFO]: Loading config from file...
-[21:02:43] [Server thread/INFO]: Angul0 joined the game
-[21:02:46] [Server thread/INFO]: brunomartii[/127.18.239.12:57971] logged in with entity id 102 at (2556.773902492559, 94.0, -1075.1485901784174)
-[21:02:46] [Server thread/INFO]: Loading config from file...
-[21:02:46] [Server thread/INFO]: brunomartii joined the game
-[21:02:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
-[21:26:23] [Server thread/INFO]: brunomartii has made the advancement [Safe Haven]
-[21:26:31] [Server thread/INFO]: Angul0 has made the advancement [Safe Haven]
-[21:27:02] [Server thread/INFO]: brunomartii has made the advancement [What a Deal!]
-[21:29:52] [c2me-worker-0/WARN]: Couldn't find template pool reference: minecraft:minecraft_empty
-[21:29:52] [c2me-worker-0/WARN]: Couldn't find template pool reference: minecraft:minecraft_empty
-[21:31:28] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2824@2cda17fc, suppressing error
-java.lang.IllegalArgumentException: Modifier is already applied on this attribute!
-	at knot/net.minecraft.class_1324.method_6197(class_1324.java:77) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1324.method_26835(class_1324.java:93) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1657.method_5873(class_1657.java:2439) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3222.method_5873(class_3222.java:1977) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1657.method_5804(class_1657.java:2451) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1496.method_6726(class_1496.java:554) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_7689.method_5992(class_7689.java:383) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1308.method_5688(class_1308.java:1265) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1657.method_7287(class_1657.java:1121) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244$1.method_33897(class_3244.java:1617) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244$1.method_34219(class_3244.java:1628) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2824$class_5909.method_34213(class_2824.java:124) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2824.method_34209(class_2824.java:74) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12062(class_3244.java:1610) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2824.method_12251(class_2824.java:61) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2824.method_11054(class_2824.java:15) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:145) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:810) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:815) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[21:35:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2835ms or 56 ticks behind
-[21:42:21] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2824@3d85bc40, suppressing error
-java.lang.IllegalArgumentException: Modifier is already applied on this attribute!
-	at knot/net.minecraft.class_1324.method_6197(class_1324.java:77) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1324.method_26835(class_1324.java:93) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1657.method_5873(class_1657.java:2439) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3222.method_5873(class_3222.java:1977) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1657.method_5804(class_1657.java:2451) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1496.method_6726(class_1496.java:554) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_7689.method_5992(class_7689.java:383) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1308.method_5688(class_1308.java:1265) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1657.method_7287(class_1657.java:1121) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244$1.method_33897(class_3244.java:1617) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244$1.method_34219(class_3244.java:1628) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2824$class_5909.method_34213(class_2824.java:124) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2824.method_34209(class_2824.java:74) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12062(class_3244.java:1610) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2824.method_12251(class_2824.java:61) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2824.method_11054(class_2824.java:15) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:145) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:810) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:815) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[21:42:42] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2824@4df5aeda, suppressing error
-java.lang.IllegalArgumentException: Modifier is already applied on this attribute!
-	at knot/net.minecraft.class_1324.method_6197(class_1324.java:77) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1324.method_26835(class_1324.java:93) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1657.method_5873(class_1657.java:2439) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3222.method_5873(class_3222.java:1977) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1657.method_5804(class_1657.java:2451) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1496.method_6726(class_1496.java:554) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_7689.method_5992(class_7689.java:383) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1308.method_5688(class_1308.java:1265) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1657.method_7287(class_1657.java:1121) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244$1.method_33897(class_3244.java:1617) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244$1.method_34219(class_3244.java:1628) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2824$class_5909.method_34213(class_2824.java:124) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2824.method_34209(class_2824.java:74) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12062(class_3244.java:1610) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2824.method_12251(class_2824.java:61) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2824.method_11054(class_2824.java:15) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:145) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:810) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:815) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[21:46:00] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2824@b197291, suppressing error
-java.lang.IllegalArgumentException: Modifier is already applied on this attribute!
-	at knot/net.minecraft.class_1324.method_6197(class_1324.java:77) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1324.method_26835(class_1324.java:93) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1657.method_5873(class_1657.java:2439) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3222.method_5873(class_3222.java:1977) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1657.method_5804(class_1657.java:2451) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1496.method_6726(class_1496.java:554) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_7689.method_5992(class_7689.java:383) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1308.method_5688(class_1308.java:1265) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1657.method_7287(class_1657.java:1121) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244$1.method_33897(class_3244.java:1617) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244$1.method_34219(class_3244.java:1628) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2824$class_5909.method_34213(class_2824.java:124) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2824.method_34209(class_2824.java:74) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12062(class_3244.java:1610) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2824.method_12251(class_2824.java:61) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2824.method_11054(class_2824.java:15) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[21:51:08] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:08] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:08] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:08] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:08] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:08] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:08] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:08] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:08] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:09] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:10] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:10] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:10] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:51:57] [Server thread/INFO]: brunomartii has made the advancement [Hot Stuff]
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:11] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:52:12] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:54:59] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:00] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:00] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:00] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:00] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:00] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:00] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:00] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:00] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:00] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:00] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:00] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:00] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:00] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:00] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:00] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:00] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:01] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:01] [c2me-worker-0/WARN]: Template pool fallback chain found: minecraft:ancient_city/walls/no_corners -> minecraft:ancient_city/walls_lock -> minecraft:ancient_city/walls_lock
-[21:55:39] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[21:58:27] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
-[22:04:27] [Server thread/INFO]: Angul0 has made the advancement [Voluntary Exile]
-[22:05:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[22:06:01] [Server thread/INFO]: brunomartii has made the advancement [Best Friends Forever]
-[22:07:32] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[22:11:23] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[22:49:38] [Server thread/INFO]: Villager class_1646['Cleric'/24843, l='ServerLevel[world]', x=4429.33, y=70.00, z=1243.70] died, message: 'Cleric was slain by Zombie'
-[23:56:37] [Server thread/INFO]: brunomartii lost connection: Disconnected
-[23:56:37] [Server thread/INFO]: brunomartii left the game
-[23:56:39] [Server thread/INFO]: Angul0 lost connection: Disconnected
-[23:56:39] [Server thread/INFO]: Angul0 left the game
+[18:59:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Skoda-Fabia/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:59:51] [main/INFO]: Compatibility level set to JAVA_16
+[18:59:51] [main/INFO]: Compatibility level set to JAVA_21
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[18:59:51] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[18:59:51] [main/INFO]: Disabling com.ishland.c2me.opts.dfc.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[18:59:51] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@13.0.8 (*) (defined in c2me)
+[18:59:51] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[18:59:51] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[18:59:51] [main/WARN]: Reference map 'easyshulkerboxes.common.refmap.json' for easyshulkerboxes.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:59:51] [main/WARN]: Reference map 'easyshulkerboxes.fabric.refmap.json' for easyshulkerboxes.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:59:51] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:59:51] [main/WARN]: Reference map 'iteminteractions.fabric.refmap.json' for iteminteractions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:59:51] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[18:59:51] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[18:59:51] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[18:59:51] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[18:59:51] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[18:59:51] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[18:59:51] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[18:59:51] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 0 override(s) found
+[18:59:51] [main/INFO]: Loaded configuration file for ModernFix 5.21.0+mc1.21.1: 58 options available, 5 override(s) found
+[18:59:51] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[18:59:51] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[18:59:51] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[18:59:51] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[18:59:51] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
+[18:59:51] [main/INFO]: Applying Nashorn fix
+[18:59:51] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:59:51] [main/WARN]: Reference map 'pickupnotifier.fabric.refmap.json' for pickupnotifier.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:59:52] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[18:59:52] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[18:59:52] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[18:59:52] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[18:59:52] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[18:59:52] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[18:59:52] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[18:59:53] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18:59:53] [main/INFO]: ThreadTweak config initialized
+[18:59:58] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[19:00:02] [main/INFO]: Vanilla bootstrap took 7577 milliseconds
+[19:00:02] [main/INFO]: Loading Collective version 8.3.
+[19:00:02] [main/INFO]: Constructing common components for easyshulkerboxes:main
+[19:00:02] [main/INFO]: Horse Buff Initialized
+[19:00:02] [main/INFO]: Constructing common components for iteminteractions:main
+[19:00:02] [main/INFO]: Initializing JamLib on Fabric
+[19:00:03] [Cicada thread 0/INFO]: [cicada] Hello, anyone there?
+[19:00:03] [main/INFO]: Hello Fabric world!
+[19:00:03] [main/INFO]: [STDOUT]: No matching files were found.
+[19:00:03] [main/INFO]: Loading Noisium.
+[19:00:03] [main/INFO]: who invited dafuqs
+[19:00:03] [main/INFO]: Constructing common components for pickupnotifier:main
+[19:00:03] [main/INFO]: Constructing common components for puzzleslib:main
+[19:00:03] [main/INFO]: Updated config file at /workspaces/Skoda-Fabia/servidor_minecraft/config/rightclickharvest.json5
+[19:00:03] [main/INFO]: Initializing Right Click Harvest on FABRIC
+[19:00:03] [main/ERROR]: No data fixer registered for 
+[19:00:03] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[19:00:03] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[19:00:03] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[19:00:03] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[19:00:03] [main/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsServer'.
+[19:00:03] [main/INFO]: Initializing 'TCD Commons API' 3.12.7+fabric-1.21 as 'TCDCommonsServer'.
+[19:00:04] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:00:06] [main/INFO]: Loaded 1446 recipes
+[19:00:06] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[19:00:06] [main/INFO]: Loaded 1573 advancements
+[19:00:06] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[19:00:07] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.488 ms
+[19:00:07] [Server thread/INFO]: Dispatching loading event for config iteminteractions-server.toml
+[19:00:07] [Server thread/INFO]: Dispatching loading event for config pickupnotifier/pickupnotifier-server.toml
+[19:00:07] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[19:00:07] [Server thread/INFO]: Loading properties
+[19:00:07] [Server thread/INFO]: Default game type: SURVIVAL
+[19:00:07] [Server thread/INFO]: Generating keypair
+[19:00:07] [Server thread/INFO]: Starting Minecraft server on *:25567
+[19:00:07] [Server thread/INFO]: Using epoll channel type
+[19:00:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:00:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:00:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:00:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:00:07] [Server thread/INFO]: Preparing level "world"
+[19:00:07] [Server thread/INFO]: Enforcing safe world random access
+[19:00:08] [Server thread/INFO]: Changing watch distance to 10
+[19:00:08] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[19:00:18] [Server thread/INFO]: Changing watch distance to 10
+[19:00:18] [Server thread/INFO]: Changing watch distance to 10
+[19:00:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:00:20] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[19:00:20] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[19:00:20] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[19:00:20] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[19:00:20] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[19:00:22] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[19:00:22] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[19:00:22] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[19:00:23] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[19:00:23] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[19:00:23] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[19:00:24] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[19:00:25] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[19:00:25] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[19:00:25] [Server thread/INFO]: Time elapsed: 6895 ms
+[19:00:25] [Server thread/INFO]: Done (18.410s)! For help, type "help"
+[19:00:25] [Server thread/WARN]: Dedicated server took 37.631 seconds to load
+[19:00:25] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[19:00:25] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[19:00:25] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[19:00:25] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[19:00:25] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[19:00:26] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!

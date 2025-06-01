@@ -352,3 +352,8 @@
 [21:01:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
 [21:10:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2062ms or 41 ticks behind
 [21:10:46] [Server thread/WARN]: Angul0 moved too quickly! -9.185219161357509,-1.1767592750642422,4.442702151813592
+[21:16:40] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[21:20:05] [Server thread/INFO]: Villager class_1646['Unemployed'/18764, l='ServerLevel[world]', x=4067.68, y=65.43, z=1789.70] died, message: 'Unemployed was slain by Zombie'
+[21:20:07] [Server thread/INFO]: Villager class_1646['Unemployed'/18936, l='ServerLevel[world]', x=4121.81, y=63.23, z=1792.44] died, message: 'Unemployed was slain by Zombie'
+[21:20:22] [Server thread/INFO]: Villager class_1646['Unemployed'/18763, l='ServerLevel[world]', x=4121.66, y=62.94, z=1780.70] died, message: 'Unemployed was slain by Zombie'
+[21:21:54] [Server thread/WARN]: Angul0 moved too quickly! 0.8466138717358263,0.0,10.068087155905687

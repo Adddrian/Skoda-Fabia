@@ -358,3 +358,11 @@
 [21:20:22] [Server thread/INFO]: Villager class_1646['Unemployed'/18763, l='ServerLevel[world]', x=4121.66, y=62.94, z=1780.70] died, message: 'Unemployed was slain by Zombie'
 [21:21:54] [Server thread/WARN]: Angul0 moved too quickly! 0.8466138717358263,0.0,10.068087155905687
 [21:37:32] [Server thread/INFO]: Angul0 has made the advancement [Enchanter]
+[21:52:35] [c2me-worker-0/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
+[21:52:35] [c2me-worker-0/WARN]: Ignoring unknown attribute 'minecraft:attack_damage'
+[21:52:35] [c2me-worker-0/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
+[21:52:35] [c2me-worker-0/WARN]: Ignoring unknown attribute 'minecraft:attack_damage'
+[21:53:30] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
+[21:53:58] [Server thread/INFO]: brunomartii has made the advancement [Intruder Alert]
+[21:54:04] [Server thread/INFO]: Angul0 has made the advancement [Intruder Alert]
+[21:54:38] [Server thread/INFO]: Angul0 has made the advancement [Ol' Betsy]

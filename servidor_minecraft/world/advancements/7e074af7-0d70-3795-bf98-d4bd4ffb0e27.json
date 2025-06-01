@@ -211,6 +211,7 @@
       "minecraft:pillager": "2025-05-28 21:26:19 +0000",
       "minecraft:cave_spider": "2025-05-29 23:09:56 +0000",
       "minecraft:skeleton": "2025-05-28 21:07:42 +0000",
+      "minecraft:vindicator": "2025-06-01 21:54:26 +0000",
       "minecraft:enderman": "2025-05-29 22:54:16 +0000",
       "minecraft:spider": "2025-05-28 21:07:24 +0000",
       "minecraft:zombie": "2025-05-28 21:03:49 +0000",
@@ -904,6 +905,7 @@
   },
   "nova_structures:adventure/find_all_illager_structures": {
     "criteria": {
+      "pillager_outpost": "2025-06-01 21:54:04 +0000",
       "illager_camp": "2025-05-28 21:26:08 +0000"
     },
     "done": false
@@ -2630,6 +2632,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/fox": {
+    "criteria": {
+      "has_sweet_berries": "2025-06-01 21:53:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_stairs": {
     "criteria": {
       "has_andesite": "2025-06-01 21:25:21 +0000"
@@ -2717,6 +2725,12 @@
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2025-06-01 20:43:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-06-01 21:54:38 +0000"
     },
     "done": true
   },
@@ -2831,6 +2845,12 @@
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-06-01 21:25:21 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_pillager_outpost": {
+    "criteria": {
+      "minecraft:pillager_outpost": "2025-06-01 21:54:04 +0000"
     },
     "done": true
   },

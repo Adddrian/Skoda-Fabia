@@ -369,3 +369,9 @@
 [21:59:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2453ms or 49 ticks behind
 [22:03:24] [Server thread/WARN]: Dark Oak Boat (vehicle of Angul0) moved wrongly! 0.6630263592633128
 [22:03:24] [Server thread/WARN]: Dark Oak Boat (vehicle of Angul0) moved wrongly! 0.32430156810278277
+[22:06:55] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[22:08:53] [Server thread/WARN]: Angul0 moved too quickly! 9.753663157094707,2.1661092609382138,-2.100781649977762
+[22:13:04] [Server thread/INFO]: brunomartii lost connection: Disconnected
+[22:13:04] [Server thread/INFO]: brunomartii left the game
+[22:13:05] [Server thread/INFO]: Angul0 lost connection: Disconnected
+[22:13:05] [Server thread/INFO]: Angul0 left the game

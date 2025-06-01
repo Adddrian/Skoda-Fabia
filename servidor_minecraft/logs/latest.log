@@ -338,3 +338,17 @@
 [19:55:36] [Server thread/INFO]: Loading config from file...
 [19:55:37] [Server thread/INFO]: brunomartii joined the game
 [20:02:23] [Server thread/INFO]: Villager class_1646['Toolsmith'/92, l='ServerLevel[world]', x=4429.64, y=70.00, z=1243.70] died, message: 'Toolsmith was slain by Zombie'
+[20:33:50] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[20:33:50] [Server thread/INFO]: <--[HERE]
+[20:36:41] [Server thread/INFO]: Angul0[/127.108.159.97:48469] logged in with entity id 7778 at (4370.571922889432, 64.0, 1242.0634434622098)
+[20:36:41] [Server thread/INFO]: Loading config from file...
+[20:36:41] [Server thread/INFO]: Angul0 joined the game
+[20:36:45] [Server thread/INFO]: <brunomartii> yeeee
+[20:36:51] [Server thread/INFO]: <Angul0> inshallah
+[20:36:57] [Server thread/INFO]: <brunomartii> disc?
+[20:37:00] [Server thread/INFO]: <Angul0> obvio
+[20:47:55] [Server thread/INFO]: Angul0 has made the advancement [Ice Bucket Challenge]
+[21:01:25] [Server thread/INFO]: <Angul0> 4300 1200
+[21:01:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[21:10:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2062ms or 41 ticks behind
+[21:10:46] [Server thread/WARN]: Angul0 moved too quickly! -9.185219161357509,-1.1767592750642422,4.442702151813592

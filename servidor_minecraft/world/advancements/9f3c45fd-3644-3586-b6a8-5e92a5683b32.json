@@ -2875,27 +2875,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cake": {
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
     "criteria": {
-      "has_egg": "2025-06-01 21:16:01 +0000"
+      "has_stripped_logs": "2025-06-01 20:50:22 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/coarse_dirt": {
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
     "criteria": {
-      "has_gravel": "2025-06-01 21:13:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_smelting": {
-    "criteria": {
-      "has_kelp": "2025-06-01 22:11:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-06-01 21:23:18 +0000"
+      "has_log": "2025-06-01 20:50:22 +0000"
     },
     "done": true
   },
@@ -2905,45 +2893,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dark_oak_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-06-01 21:23:18 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/fox": {
-    "criteria": {
-      "has_sweet_berries": "2025-06-01 21:40:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
-    "criteria": {
-      "has_kelp": "2025-06-01 22:11:15 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2025-06-01 20:56:16 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dark_oak_button": {
+  "travelersbackpack:recipes/misc/lapis": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-06-01 20:56:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-06-01 21:13:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-06-01 21:16:01 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cake": {
+    "criteria": {
+      "has_egg": "2025-06-01 21:16:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2025-06-01 21:23:18 +0000"
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/bookshelf_smithing": {
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
     "criteria": {
-      "has_bookshelf": "2025-06-01 21:48:23 +0000"
+      "has_planks": "2025-06-01 21:23:18 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/spruce_hanging_sign": {
+  "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
-      "has_stripped_logs": "2025-06-01 20:50:22 +0000"
+      "has_planks": "2025-06-01 21:23:18 +0000"
     },
     "done": true
   },
@@ -2956,12 +2950,6 @@
   "minecraft:recipes/redstone/dark_oak_pressure_plate": {
     "criteria": {
       "has_planks": "2025-06-01 21:23:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
-    "criteria": {
-      "has_log": "2025-06-01 20:50:22 +0000"
     },
     "done": true
   },
@@ -2983,9 +2971,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp_from_smoking": {
+  "minecraft:recipes/decorations/dark_oak_sign": {
     "criteria": {
-      "has_kelp": "2025-06-01 22:11:15 +0000"
+      "has_planks": "2025-06-01 21:23:18 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/fox": {
+    "criteria": {
+      "has_sweet_berries": "2025-06-01 21:40:20 +0000"
     },
     "done": true
   },
@@ -2995,9 +2989,9 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/lapis": {
+  "travelersbackpack:recipes/misc/bookshelf_smithing": {
     "criteria": {
-      "has_lapis_lazuli": "2025-06-01 20:56:16 +0000"
+      "has_bookshelf": "2025-06-01 21:48:23 +0000"
     },
     "done": true
   },
@@ -3007,15 +3001,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/dark_oak_sign": {
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
     "criteria": {
-      "has_planks": "2025-06-01 21:23:18 +0000"
+      "has_kelp": "2025-06-01 22:11:15 +0000"
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/cake": {
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
     "criteria": {
-      "has_egg": "2025-06-01 21:16:01 +0000"
+      "has_kelp": "2025-06-01 22:11:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-06-01 22:11:15 +0000"
     },
     "done": true
   },

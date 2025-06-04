@@ -370,6 +370,7 @@
       "minecraft:skeleton": "2025-06-04 22:51:05 +0000",
       "minecraft:enderman": "2025-06-04 23:33:38 +0000",
       "minecraft:witch": "2025-06-04 23:12:09 +0000",
+      "minecraft:spider": "2025-06-04 23:42:51 +0000",
       "minecraft:zombie": "2025-06-04 22:51:52 +0000"
     },
     "done": false
@@ -419,6 +420,12 @@
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_dandelion": "2025-06-04 23:20:03 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/bat_smithing": {
+    "criteria": {
+      "has_bat": "2025-06-04 23:46:52 +0000"
     },
     "done": true
   },

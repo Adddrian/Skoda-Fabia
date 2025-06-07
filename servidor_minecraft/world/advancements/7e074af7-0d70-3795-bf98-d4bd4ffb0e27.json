@@ -294,7 +294,8 @@
       "beef": "2025-05-28 21:28:28 +0000",
       "baked_potato": "2025-06-04 21:52:05 +0000",
       "melon_slice": "2025-05-28 21:17:09 +0000",
-      "porkchop": "2025-05-28 21:14:33 +0000"
+      "porkchop": "2025-05-28 21:14:33 +0000",
+      "pumpkin_pie": "2025-06-07 22:48:02 +0000"
     },
     "done": false
   },
@@ -2960,6 +2961,66 @@
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
     "criteria": {
       "has_polished_andesite": "2025-06-04 23:30:54 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/blast_furnace_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/crafting_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/tanks_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/feeding_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/jukebox_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/smoker_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/pickup_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/furnace_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/void_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/magnet_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
     },
     "done": true
   },

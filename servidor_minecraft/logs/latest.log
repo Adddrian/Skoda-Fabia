@@ -354,3 +354,35 @@
 [22:41:51] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
 [22:41:57] [Server thread/WARN]: Angul0 moved too quickly! 10.248935349874046,-1.5424886637345452,-0.515172998000935
 [22:41:57] [Server thread/WARN]: marc27_ moved too quickly! -1.5609762804260754,0.0,-10.155576039267316
+[22:43:43] [Server thread/INFO]: Villager class_1646['Mason'/37021, l='ServerLevel[world]', x=6444.63, y=82.00, z=798.55] died, message: 'Mason was slain by marc27_'
+[22:52:44] [c2me-worker-0/WARN]: Couldn't find template pool reference: minecraft:minecraft_empty
+[22:52:46] [c2me-worker-0/WARN]: Couldn't find template pool reference: minecraft:minecraft_empty
+[23:16:37] [Server thread/INFO]: marc27_ burned to death
+[23:16:37] [Server thread/INFO]: Created new backpack backup file for marc27_ with unique ID travelersbackpack.fox_09.06.2025-23.16.37.dat
+[23:16:37] [Server thread/INFO]: Created new backpack backup file for marc27_ with unique ID travelersbackpack.fox_09.06.2025-23.16.37.dat
+[23:16:37] [Server thread/INFO]: Your backpack has been placed at X: 6551 Y: 69 Z: 878
+[23:16:37] [Server thread/WARN]: marc27_ moved wrongly!
+[23:19:29] [Server thread/INFO]: brunomartii was doomed to fall by Angul0
+[23:19:29] [Server thread/INFO]: Created new backpack backup file for brunomartii with unique ID travelersbackpack.bat_09.06.2025-23.19.29.dat
+[23:19:29] [Server thread/INFO]: Created new backpack backup file for brunomartii with unique ID travelersbackpack.bat_09.06.2025-23.19.29.dat
+[23:19:29] [Server thread/INFO]: Your backpack has been placed at X: 5202 Y: 39 Z: 1151
+[23:21:09] [Server thread/INFO]: <Angul0> 5191 1154
+[23:24:25] [Server thread/INFO]: brunomartii fell from a high place
+[23:27:31] [Server thread/INFO]: <Angul0> 5195 1165
+[23:40:09] [Server thread/INFO]: brunomartii lost connection: Timed out
+[23:40:09] [Server thread/INFO]: brunomartii left the game
+[23:40:14] [Server thread/INFO]: brunomartii[/127.18.239.12:53587] logged in with entity id 72403 at (6475.548977405897, 62.56967499467831, 1035.6969214364487)
+[23:40:14] [Server thread/INFO]: Loading config from file...
+[23:40:14] [Server thread/INFO]: brunomartii joined the game
+[23:43:00] [Server thread/INFO]: brunomartii was slain by Skeleton
+[23:43:00] [Server thread/INFO]: Created new backpack backup file for brunomartii with unique ID travelersbackpack.bat_09.06.2025-23.43.00.dat
+[23:43:00] [Server thread/INFO]: Created new backpack backup file for brunomartii with unique ID travelersbackpack.bat_09.06.2025-23.43.00.dat
+[23:43:00] [Server thread/INFO]: Your backpack has been placed at X: 6480 Y: -17 Z: 1057
+[23:43:01] [Server thread/INFO]: brunomartii lost connection: You logged in from another location
+[23:43:01] [Server thread/INFO]: brunomartii left the game
+[23:43:02] [Server thread/INFO]: brunomartii[/127.18.239.12:60223] logged in with entity id 73170 at (6480.50199151711, -17.0, 1057.3030283557414)
+[23:43:02] [Server thread/INFO]: Loading config from file...
+[23:43:02] [Server thread/INFO]: brunomartii joined the game
+[23:43:36] [Server thread/INFO]: [Angul0: Teleported brunomartii to Angul0]
+[23:47:57] [Server thread/INFO]: marc27_ has made the advancement [Under Lock and Key]
+[23:48:01] [Server thread/INFO]: marc27_ has made the advancement [Diamonds!]

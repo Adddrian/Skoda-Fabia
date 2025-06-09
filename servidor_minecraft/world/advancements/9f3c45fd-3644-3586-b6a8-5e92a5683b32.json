@@ -36,6 +36,7 @@
       "minecraft:frozen_river": "2025-06-01 22:03:20 +0000",
       "minecraft:windswept_forest": "2025-06-01 21:57:06 +0000",
       "minecraft:jungle": "2025-05-28 21:14:26 +0000",
+      "minecraft:sunflower_plains": "2025-06-09 23:53:26 +0000",
       "minecraft:birch_forest": "2025-05-31 21:58:18 +0000",
       "minecraft:windswept_hills": "2025-06-01 21:59:05 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-06-01 22:11:25 +0000",
@@ -60,6 +61,7 @@
       "minecraft:old_growth_birch_forest": "2025-05-28 21:42:09 +0000",
       "minecraft:grove": "2025-05-31 21:58:08 +0000",
       "minecraft:meadow": "2025-05-31 21:53:52 +0000",
+      "minecraft:windswept_gravelly_hills": "2025-06-09 23:31:48 +0000",
       "minecraft:savanna": "2025-05-28 21:06:39 +0000",
       "minecraft:plains": "2025-05-28 21:21:47 +0000",
       "minecraft:jagged_peaks": "2025-05-31 21:55:06 +0000"
@@ -359,7 +361,9 @@
       "apple": "2025-05-28 21:15:45 +0000",
       "chicken": "2025-05-28 21:19:15 +0000",
       "bread": "2025-05-28 21:27:24 +0000",
+      "sweet_berries": "2025-06-09 23:20:49 +0000",
       "beef": "2025-05-28 21:10:15 +0000",
+      "baked_potato": "2025-06-09 23:29:49 +0000",
       "melon_slice": "2025-05-28 21:18:00 +0000",
       "porkchop": "2025-05-28 21:14:07 +0000",
       "beetroot": "2025-05-28 21:27:01 +0000",
@@ -3120,6 +3124,30 @@
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2025-06-08 01:26:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-06-09 23:05:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-06-09 23:05:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_bulb_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_copper_bulb": "2025-06-09 23:36:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/turtle_helmet": {
+    "criteria": {
+      "has_turtle_scute": "2025-06-09 23:47:44 +0000"
     },
     "done": true
   },

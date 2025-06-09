@@ -342,3 +342,15 @@
 [22:00:11] [Server thread/INFO]: Created new backpack backup file for marc27_ with unique ID travelersbackpack.fox_09.06.2025-22.00.11.dat
 [22:00:11] [Server thread/INFO]: Created new backpack backup file for marc27_ with unique ID travelersbackpack.fox_09.06.2025-22.00.11.dat
 [22:00:11] [Server thread/INFO]: Your backpack has been placed at X: 4466 Y: 75 Z: 1004
+[22:17:24] [Server thread/INFO]: marc27_ has made the advancement [Ice Bucket Challenge]
+[22:19:41] [Server thread/WARN]: marc27_ moved too quickly! -6.967236945856712,0.5,7.212098533765584
+[22:19:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5625ms or 112 ticks behind
+[22:20:33] [Server thread/INFO]: <brunomartii> 570 150
+[22:20:40] [Server thread/INFO]: marc27_ has made the advancement [We Need to Go Deeper]
+[22:29:30] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[22:34:17] [Server thread/INFO]: Villager class_1646['Unemployed'/27573, l='ServerLevel[world]', x=4443.45, y=66.75, z=1238.15] died, message: 'Unemployed was slain by brunomartii'
+[22:35:09] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[22:35:46] [Server thread/INFO]: marc27_ has made the advancement [A Major Trial Of Strengh]
+[22:41:51] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[22:41:57] [Server thread/WARN]: Angul0 moved too quickly! 10.248935349874046,-1.5424886637345452,-0.515172998000935
+[22:41:57] [Server thread/WARN]: marc27_ moved too quickly! -1.5609762804260754,0.0,-10.155576039267316

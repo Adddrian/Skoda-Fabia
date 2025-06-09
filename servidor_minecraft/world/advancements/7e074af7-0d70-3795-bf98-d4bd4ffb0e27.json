@@ -2967,45 +2967,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_bed": {
-    "criteria": {
-      "has_gray_wool": "2025-06-08 00:20:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:nether_wastes": "2025-06-08 00:45:18 +0000"
-    },
-    "done": false
-  },
   "travelersbackpack:recipes/misc/blast_furnace_upgrade": {
     "criteria": {
       "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2025-06-08 00:45:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/green_banner": {
-    "criteria": {
-      "has_green_wool": "2025-06-08 00:34:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2025-06-08 00:49:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_carpet": {
-    "criteria": {
-      "has_black_wool": "2025-06-08 00:34:44 +0000"
     },
     "done": true
   },
@@ -3015,21 +2979,75 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_bed": {
+  "travelersbackpack:recipes/misc/tanks_upgrade": {
     "criteria": {
-      "has_light_blue_wool": "2025-06-08 00:33:54 +0000"
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/golden_carrot": {
+  "travelersbackpack:recipes/misc/feeding_upgrade": {
     "criteria": {
-      "has_gold_nugget": "2025-06-08 00:49:07 +0000"
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_banner": {
+  "travelersbackpack:recipes/misc/jukebox_upgrade": {
     "criteria": {
-      "has_black_wool": "2025-06-08 00:34:44 +0000"
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/smoker_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/pickup_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/furnace_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/void_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/magnet_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-06-07 23:27:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-06-07 23:32:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-06-08 00:19:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-06-08 00:20:24 +0000"
     },
     "done": true
   },
@@ -3039,9 +3057,45 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/tanks_upgrade": {
+  "travelersbackpack:recipes/decorations/gray_sleeping_bag": {
     "criteria": {
-      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
+      "has_gray_wool": "2025-06-08 00:20:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-06-08 00:20:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed": {
+    "criteria": {
+      "has_light_blue_wool": "2025-06-08 00:33:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2025-06-08 00:33:54 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/decorations/light_blue_sleeping_bag": {
+    "criteria": {
+      "has_light_blue_wool": "2025-06-08 00:33:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2025-06-08 00:33:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_banner": {
+    "criteria": {
+      "has_green_wool": "2025-06-08 00:34:09 +0000"
     },
     "done": true
   },
@@ -3057,17 +3111,77 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_banner": {
+  "minecraft:recipes/decorations/green_bed": {
     "criteria": {
-      "has_light_blue_wool": "2025-06-08 00:33:54 +0000"
+      "has_green_wool": "2025-06-08 00:34:09 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+  "minecraft:recipes/decorations/blue_bed": {
     "criteria": {
-      "has_bone_block": "2025-06-07 23:32:50 +0000"
+      "has_blue_wool": "2025-06-08 00:34:30 +0000"
     },
     "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet": {
+    "criteria": {
+      "has_blue_wool": "2025-06-08 00:34:30 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/decorations/blue_sleeping_bag": {
+    "criteria": {
+      "has_blue_wool": "2025-06-08 00:34:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2025-06-08 00:34:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-06-08 00:34:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-06-08 00:34:44 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/decorations/black_sleeping_bag": {
+    "criteria": {
+      "has_black_wool": "2025-06-08 00:34:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-06-08 00:34:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-06-08 00:45:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-06-08 00:45:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2025-06-08 00:45:18 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/diorite": {
     "criteria": {
@@ -3078,18 +3192,6 @@
   "minecraft:recipes/building_blocks/granite": {
     "criteria": {
       "has_quartz": "2025-06-08 00:45:37 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/feeding_upgrade": {
-    "criteria": {
-      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/decorations/black_sleeping_bag": {
-    "criteria": {
-      "has_black_wool": "2025-06-08 00:34:44 +0000"
     },
     "done": true
   },
@@ -3117,117 +3219,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_bed": {
-    "criteria": {
-      "has_black_wool": "2025-06-08 00:34:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather": {
-    "criteria": {
-      "has_rabbit_hide": "2025-06-08 00:19:58 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/jukebox_upgrade": {
-    "criteria": {
-      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/smoker_upgrade": {
-    "criteria": {
-      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_bed": {
-    "criteria": {
-      "has_blue_wool": "2025-06-08 00:34:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/green_bed": {
-    "criteria": {
-      "has_green_wool": "2025-06-08 00:34:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2025-06-08 00:45:14 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/pickup_upgrade": {
-    "criteria": {
-      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/misc/quartz": {
     "criteria": {
       "has_quartz": "2025-06-08 00:45:37 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/decorations/gray_sleeping_bag": {
-    "criteria": {
-      "has_gray_wool": "2025-06-08 00:20:24 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/furnace_upgrade": {
-    "criteria": {
-      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_carpet": {
-    "criteria": {
-      "has_blue_wool": "2025-06-08 00:34:30 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/decorations/light_blue_sleeping_bag": {
-    "criteria": {
-      "has_light_blue_wool": "2025-06-08 00:33:54 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/void_upgrade": {
-    "criteria": {
-      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/magnet_upgrade": {
-    "criteria": {
-      "has_blank_upgrade": "2025-06-07 22:48:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_banner": {
-    "criteria": {
-      "has_gray_wool": "2025-06-08 00:20:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_carpet": {
-    "criteria": {
-      "has_light_blue_wool": "2025-06-08 00:33:54 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/decorations/blue_sleeping_bag": {
-    "criteria": {
-      "has_blue_wool": "2025-06-08 00:34:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_banner": {
-    "criteria": {
-      "has_blue_wool": "2025-06-08 00:34:30 +0000"
     },
     "done": true
   },
@@ -3237,9 +3231,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
-      "has_iron_nugget": "2025-06-07 23:27:21 +0000"
+      "has_gold_nugget": "2025-06-08 00:49:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-08 00:49:07 +0000"
     },
     "done": true
   },

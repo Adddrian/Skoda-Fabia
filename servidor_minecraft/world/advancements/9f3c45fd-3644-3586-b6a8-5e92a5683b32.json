@@ -3164,6 +3164,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-06-11 22:04:58 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/blast_furnace_upgrade": {
     "criteria": {
       "has_blank_upgrade": "2025-06-11 21:06:29 +0000"
@@ -3269,6 +3275,12 @@
   "minecraft:recipes/building_blocks/nether_bricks": {
     "criteria": {
       "has_nether_brick": "2025-06-11 21:44:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-06-11 22:04:58 +0000"
     },
     "done": true
   },

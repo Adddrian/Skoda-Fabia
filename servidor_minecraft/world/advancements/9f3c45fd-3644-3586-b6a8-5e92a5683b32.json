@@ -3170,6 +3170,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-06-11 22:43:27 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/blast_furnace_upgrade": {
     "criteria": {
       "has_blank_upgrade": "2025-06-11 21:06:29 +0000"
@@ -3197,6 +3203,12 @@
   "minecraft:recipes/decorations/light_blue_bed": {
     "criteria": {
       "has_light_blue_wool": "2025-06-11 21:03:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-06-11 22:43:27 +0000"
     },
     "done": true
   },
@@ -3320,6 +3332,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/decorations/gray_sleeping_bag": {
+    "criteria": {
+      "has_gray_wool": "2025-06-11 22:43:27 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/furnace_upgrade": {
     "criteria": {
       "has_blank_upgrade": "2025-06-11 21:06:29 +0000"
@@ -3353,6 +3371,12 @@
   "travelersbackpack:recipes/misc/magnet_upgrade": {
     "criteria": {
       "has_blank_upgrade": "2025-06-11 21:06:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-06-11 22:43:27 +0000"
     },
     "done": true
   },

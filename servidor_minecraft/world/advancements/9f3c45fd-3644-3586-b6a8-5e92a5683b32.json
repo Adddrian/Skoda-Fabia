@@ -183,7 +183,9 @@
       "minecraft:pillager": "2025-05-28 21:26:18 +0000",
       "minecraft:skeleton": "2025-05-28 21:22:13 +0000",
       "minecraft:witch": "2025-05-31 21:51:38 +0000",
+      "minecraft:wither_skeleton": "2025-06-11 21:47:35 +0000",
       "minecraft:husk": "2025-05-29 22:41:01 +0000",
+      "minecraft:hoglin": "2025-06-11 22:01:33 +0000",
       "minecraft:cave_spider": "2025-06-01 20:57:15 +0000",
       "minecraft:piglin": "2025-06-11 21:43:44 +0000",
       "minecraft:enderman": "2025-05-29 22:51:46 +0000",
@@ -3114,6 +3116,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2025-06-11 21:52:54 +0000",
       "minecraft:nether_wastes": "2025-06-08 01:15:39 +0000",
       "minecraft:basalt_deltas": "2025-06-09 22:22:26 +0000"
     },
@@ -3167,6 +3170,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2025-06-11 21:49:33 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/crafting_upgrade": {
     "criteria": {
       "has_blank_upgrade": "2025-06-11 21:06:29 +0000"
@@ -3190,6 +3199,12 @@
       "has_light_blue_wool": "2025-06-11 21:03:41 +0000"
     },
     "done": true
+  },
+  "nova_structures:nether/find_nether_skeleton": {
+    "criteria": {
+      "skeleton_camp_waste": "2025-06-11 21:48:23 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/diorite": {
     "criteria": {
@@ -3275,6 +3290,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2025-06-11 21:49:33 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/decorations/light_blue_sleeping_bag": {
     "criteria": {
       "has_light_blue_wool": "2025-06-11 21:03:41 +0000"
@@ -3296,6 +3317,24 @@
   "minecraft:recipes/decorations/light_blue_carpet": {
     "criteria": {
       "has_light_blue_wool": "2025-06-11 21:03:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-06-11 21:58:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-06-11 21:58:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2025-06-11 21:57:19 +0000"
     },
     "done": true
   },

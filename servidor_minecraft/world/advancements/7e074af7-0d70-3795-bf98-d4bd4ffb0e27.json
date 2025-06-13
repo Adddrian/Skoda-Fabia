@@ -3750,6 +3750,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2025-06-13 00:25:44 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/wither": {
     "criteria": {
       "has_wither_skeleton_skull": "2025-06-12 23:50:22 +0000"

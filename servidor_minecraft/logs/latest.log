@@ -3,3 +3,29 @@
 [00:17:28] [Server thread/INFO]: Villager class_1646['Unemployed'/28622, l='ServerLevel[world]', x=4447.01, y=70.00, z=1231.30] died, message: 'Unemployed was slain by Angul0'
 [00:29:09] [Server thread/INFO]: brunomartii lost connection: Disconnected
 [00:29:09] [Server thread/INFO]: brunomartii left the game
+[00:49:18] [Server thread/INFO]: Villager class_1646['Armorer'/28603, l='ServerLevel[world]', x=4420.30, y=63.00, z=1242.30] died, message: 'Armorer was slain by Zombie'
+[00:49:25] [Server thread/INFO]: Villager class_1646['Librarian'/28604, l='ServerLevel[world]', x=4420.30, y=63.00, z=1242.30] died, message: 'Librarian was slain by Zombie'
+[00:59:01] [Server thread/INFO]: Angul0 lost connection: Disconnected
+[00:59:01] [Server thread/INFO]: Angul0 left the game
+[00:59:10] [Server thread/INFO]: Stopping server
+[00:59:10] [Server thread/INFO]: Saving players
+[00:59:10] [Server thread/INFO]: Saving worlds
+[00:59:10] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[00:59:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:59:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:59:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:59:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:59:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:59:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:59:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:59:10] [C2ME Storage #3/INFO]: Storage thread Thread[#64,C2ME Storage #3,5,main] stopped
+[00:59:10] [C2ME Storage #2/INFO]: Storage thread Thread[#63,C2ME Storage #2,5,main] stopped
+[00:59:10] [C2ME Storage #1/INFO]: Storage thread Thread[#62,C2ME Storage #1,5,main] stopped
+[00:59:10] [C2ME Storage #6/INFO]: Storage thread Thread[#69,C2ME Storage #6,5,main] stopped
+[00:59:10] [C2ME Storage #5/INFO]: Storage thread Thread[#68,C2ME Storage #5,5,main] stopped
+[00:59:10] [C2ME Storage #4/INFO]: Storage thread Thread[#67,C2ME Storage #4,5,main] stopped
+[00:59:10] [C2ME Storage #9/INFO]: Storage thread Thread[#73,C2ME Storage #9,5,main] stopped
+[00:59:10] [C2ME Storage #8/INFO]: Storage thread Thread[#72,C2ME Storage #8,5,main] stopped
+[00:59:10] [C2ME Storage #7/INFO]: Storage thread Thread[#71,C2ME Storage #7,5,main] stopped
+[00:59:10] [Server thread/INFO]: Dispatching unloading event for config iteminteractions-server.toml
+[00:59:10] [Server thread/INFO]: Dispatching unloading event for config pickupnotifier/pickupnotifier-server.toml

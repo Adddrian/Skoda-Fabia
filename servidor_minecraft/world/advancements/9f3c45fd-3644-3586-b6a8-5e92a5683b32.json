@@ -3876,9 +3876,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2025-06-13 00:13:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-06-13 00:11:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/netherite_ingot": {
     "criteria": {
       "has_netherite_scrap": "2025-06-12 23:58:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2025-06-13 00:13:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2025-06-13 00:13:19 +0000"
     },
     "done": true
   },
@@ -3894,9 +3918,21 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/blaze_smithing": {
+    "criteria": {
+      "has_blaze": "2025-06-13 00:09:00 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/bee_smithing": {
     "criteria": {
       "has_bee": "2025-06-13 00:01:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-06-13 00:11:40 +0000"
     },
     "done": true
   },
